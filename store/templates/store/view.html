@@ -1,0 +1,70 @@
+{% extends 'store/main.html'%}
+
+{% load static %}
+  {% block content %}
+<style>
+
+    body{
+  background: rgba(0,0,0,0.3);
+    }
+</style>
+      <div class="row sip">
+        <h3 class="col-lg-6">{{products.name}}</h3>
+        <a  class="btn btn-outline-dark col-lg-6" href="{% url 'store' %}">&#x2190; Continue Shopping</a>
+      </div>
+    <div class="scrolling-wrapper">
+  <div class="card card-body">
+    <img src="{{products.imageURL}}" alt="">
+  </div>
+        <div class="card card-body">
+    <img src="{{products.imageSURL}}" alt="">
+  </div>
+    <div class="card card-body">
+    <img src="{{products.imageURL}}" alt="">
+  </div>
+</div>
+	<div class="row control">
+				<button data-product="{{products.id}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+
+				<a class="btn btn-outline-success" href="">Like</a>
+                <a class="btn btn-success" href="{% url 'checkout' %}">Checkout</a>
+				<h4 style="display: inline-block; float: right"><strong>${{products.price|floatformat:2}}</strong></h4>
+           </div>
+    </div>
+
+
+<div class="details card card-body">
+    <div class="log">
+         <a  class="btn btn-outline-dark col-lg-5" data-target="#myModal" data-toggle="modal" href="{% url 'store' %}">&#x2190; Details</a>
+    </div>
+
+    <div class="detail">
+        <p>
+            {{products.description}}
+        </p>
+    </div>
+</div>
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title"> Details for {{products.name}}</h4>
+                    <button type="button" data-dismiss="modal" class="close">&times</button>
+                </div>
+
+                <div class="modal-body">
+                    <br>
+                   <p> {{ products.description}}</p>
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-danger btn-sm" type="button" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  {% endblock content%}
