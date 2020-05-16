@@ -2,86 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a503e746-1f66-49e1-b6be-f5a8e6c4a850" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/eccomerce.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eccomerce/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eccomerce/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eccomerce/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eccomerce/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/Capture_C8palib.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/IMG_20200210_174251.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/IMG_20200210_174251_eHsgquB.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/IMG_20200210_174329.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/IMG_20200210_174329_OwobpTB.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/IMG_20200213_130221.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/arrow-down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/arrow-up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/book.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/book_4tb0ucH.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/book_Cbeh9ZG.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/book_IHuI9lP.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/headphones.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/headphones_MeviLwP.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/headphones_TLVH5CJ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/headphones_ZFpgnCR.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/placeholder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shirt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shirt_7xIXXwL.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shirt_SoUPq3t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shirt_iIJgBsh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shoes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shoes_Dc2t2JI.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shoes_qPH2tYB.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shoes_zy1FKO8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sourcecode.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sourcecode_lvPSnYP.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sourcecode_tV0OFTT.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sourcecode_z6R0Fho.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/watch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/watch_32qZPTN.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/watch_GYSwoqC.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/watch_YIrmJxs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/migrations/0002_product_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/migrations/0003_auto_20200515_1107.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/migrations/0004_auto_20200515_1111.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/migrations/0005_auto_20200515_1115.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/migrations/0006_auto_20200515_1532.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/migrations/0007_auto_20200515_1541.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/migrations/0008_auto_20200515_1546.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/templates/store/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/templates/store/checkout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/templates/store/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/templates/store/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/templates/store/store.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/templates/store/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eccomerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eccomerce/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
